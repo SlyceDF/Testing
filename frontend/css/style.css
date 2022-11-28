@@ -1,8 +1,15 @@
-p {
+h1 {
   font-family: CascadeK;
   font-size: calc(3 * (1vw + 1vh));
   color: var(--color-light);
+  font-weight: normal;
+}
+p {
+  font-family: CascadeK;
+  font-size: calc(1 * (1vw + 1vh));
+  color: var(--color-dl);
 }
 body {
   background-color: var(--color-bg);
+  margin: 3vh 3vw 3vh 3vw;
 }
