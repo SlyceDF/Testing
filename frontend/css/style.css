@@ -13,3 +13,10 @@ body {
   background-color: var(--color-bg);
   margin: 3vh 3vw 3vh 3vw;
 }
+body::-webkit-scrollbar { 
+    display: none;
+}
+::selection {
+  color: white;
+  background: var(--color-dark);
+}
